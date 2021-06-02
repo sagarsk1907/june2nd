@@ -1,0 +1,5 @@
+com\qa\pages\amazon1page.class
+com\qa\pages\googlesearchpage.class
+com\qa\Baseclass\BaseClass.class
+com\qa\utils\Utilities.class
+com\qa\pages\amazon2page.class

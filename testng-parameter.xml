@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Amazon">
+<parameter name="productname" value = "samsung"></parameter>
+
+	<test name="testngparamTest">
+		<classes>
+			<class name="com.qa.tests.Amazon1Test">
+			<methods>
+			<include name= "t2"></include>
+			</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

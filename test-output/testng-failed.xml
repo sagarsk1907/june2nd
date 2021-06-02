@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Amazon]" parallel="methods">
+  <test thread-count="5" name="testngparallelTest(failed)" parallel="methods">
+    <classes>
+      <class name="com.qa.tests.Amazon1Test">
+        <methods>
+          <include name="t5"/>
+          <include name="t2"/>
+          <include name="openurl"/>
+          <include name="t4"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.qa.tests.Amazon1Test -->
+    </classes>
+  </test> <!-- testngparallelTest(failed) -->
+</suite> <!-- Failed suite [Amazon] -->
